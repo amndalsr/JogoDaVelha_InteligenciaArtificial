@@ -8,8 +8,8 @@ public class JogadorHogwarts extends Jogador {
     public JogadorHogwarts(String nome) {
         super(nome);
     }
-
-
+  
+    
     public int[] jogar(int[][] tabuleiro) {
        int meuSimbolo = super.getSimbolo();
        int[] minhaJogada = new int[2];
@@ -26,14 +26,14 @@ public class JogadorHogwarts extends Jogador {
                         minhaJogada[1] = j;
                         jogadaperfeita= jogada;
                     } 
-
-
+                    
+                   
                 }
                     }}
               return minhaJogada;
     }
-
-
+    
+    
     public static int jogadorMiniMax(int tabuleiro[][], int profundidade, Boolean maximo, int simbolo){
         if (tabuleiro.length > 3 && profundidade >0) {
             return 0;
@@ -152,7 +152,7 @@ public class JogadorHogwarts extends Jogador {
                 }
         return false;
     }
-
+    
     public int alphabeta(JogadorHogwarts g, int alpha, int beta, char vez ){
 		// Se g for terminal, retona a heuristica
 		if(vez=='0'){
