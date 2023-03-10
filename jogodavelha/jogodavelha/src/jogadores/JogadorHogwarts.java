@@ -3,10 +3,6 @@ package jogadores;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Naruto
- */
 public class JogadorHogwarts extends Jogador {
 
     public JogadorHogwarts(String nome) {
