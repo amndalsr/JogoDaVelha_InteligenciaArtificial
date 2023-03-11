@@ -1,4 +1,4 @@
-### ✨🕹️Jogo da velha
+### ✨🕹️Jogo da velha 
 
 Implementação de uma subclasse (JogadorHogwarts) para competição em um jogo da velha na disciplina de Inteligência Artificial do curso de Ciência da Computação.
 
